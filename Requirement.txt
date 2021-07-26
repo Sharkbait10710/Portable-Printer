@@ -5,6 +5,7 @@
 2) Uses a pen to draw on printer paper 
     printer must be minimum 8.5 x 11 in to accomodate printer paper
     sketched drawing should be relatively accurate to user's sketched
+    consistent prints
     print speed should be reasonable
     if power is lost, printer can resume printing
 

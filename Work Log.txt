@@ -20,3 +20,8 @@
     {
         Wrote requirement for project
     }
+
+2021-07-26 15:12:06
+    {
+        Created Design folder, which would house the SW files, and currently contains the general design idea text file
+    }

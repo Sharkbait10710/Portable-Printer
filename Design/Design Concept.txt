@@ -1,0 +1,18 @@
+Major Parts
+
+    Chassis
+        Consist of NEMA 17 stepper motor, lead screw, and nut carrier that moves pen mount
+        houses electronics
+        paper passes through Chassis
+
+    Pen Mount
+        actached to nut carrier and moves as NEMA 17 rotates its shaft
+        tightly attached to pen
+        can lift pen easily and quickly
+
+    Roller
+        accepts paper and consistent pushes paper under pen mount   
+        paper distance inside chassis is consistently and accurately controlled
+
+    Paper Dispenser
+        straightens paper and minimizes curls in the paper
