@@ -1,0 +1,22 @@
+2021-07-26 13:45:13
+    {
+        Created Git Repository
+        Laid out general idea of project in README.md
+    }
+
+2021-07-26 14:11:13
+    {
+        watched youtube.com/watch?v=6BkYcqe8Vmo "How to convert rotational motion into linear motion | Lemurian Designs"
+            and discovered the lead screw assembly
+    }
+
+2021-07-26 14:44:10
+    {
+        watched https://www.youtube.com/watch?v=BstZUC4tcOA "Power Screws - Torque to Force Relationships in Just Over 10 Minutes!"
+            and learned that one full rotation, for single thread screw, will advance output load by lead (l)
+    }
+
+2021-07-26 15:00:18
+    {
+        Wrote requirement for project
+    }

@@ -1,0 +1,18 @@
+1) Structural rigid and relatively lightweight for easy transportation
+    wires are simple and easy to store
+    electronics are well protected and safety concealed to protect users and printer
+
+2) Uses a pen to draw on printer paper 
+    printer must be minimum 8.5 x 11 in to accomodate printer paper
+    sketched drawing should be relatively accurate to user's sketched
+    print speed should be reasonable
+    if power is lost, printer can resume printing
+
+3) Incorporates a user-friendly UI that can accept user drawings and prints them via Portable printer
+    UI should be IOS friendly 
+    should be able to print real-time(image is still in progress, but would like to be drawn immediately) and by completion (image is complete and ready to print)
+
+Possible improvements:
+    as cheap as possible with maximum quality
+    as fast as possible without compromising sketch quality or damage to parts
+    as compact as possible
