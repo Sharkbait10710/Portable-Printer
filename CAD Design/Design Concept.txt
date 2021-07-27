@@ -1,0 +1,37 @@
+Major Parts
+
+    Chassis
+        Consist of NEMA 17 stepper motor, lead screw, and nut carrier that moves pen mount
+        houses electronics
+        paper passes through Chassis
+        *ball bearings to house lead screw
+        *rod shaft to support nut carrier
+        *use rectangular structure embedded under lead screw
+
+    Pen Mount
+        actached to nut carrier and moves as NEMA 17 rotates its shaft
+        tightly attached to pen
+        uses servo motor to lift and depress pen
+        can lift pen easily and quickly
+        mounted on wheels for reduction of friction
+        use quick-draw (not correct name) mechanism to lift pen during non-drawing time
+        sensor to help locate pen
+
+    Roller
+        accepts paper and consistent pushes paper under pen mount   
+        paper distance inside chassis is consistently and accurately controlled
+        controlled using spur gear and stepper motor
+        feeds paper into chassism where pen will draw on paper
+        should be able to push paper in and pull paper out
+        sensor to detect paper
+
+    Paper Dispenser
+        straightens paper and minimizes curls in the paper
+        should keep paper down as pen is moving back and forth
+
+    electronics
+        use PCB board and attach to all motors (stepper and servo), sensor, and microncontroller
+        microncontroller is esp32 for internet capability
+        12V power supply 
+        DRV8255 motor driver
+        *need 5-8ish power supply to power esp32

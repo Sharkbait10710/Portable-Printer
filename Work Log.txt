@@ -25,3 +25,8 @@
     {
         Created Design folder, which would house the SW files, and currently contains the general design idea text file
     }
+
+2021-07-27 07:35:52 
+    {
+        COntinued working on Design Concept. Have good idea of CAD design now
+    }
