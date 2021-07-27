@@ -8,7 +8,9 @@ Major Parts
     Pen Mount
         actached to nut carrier and moves as NEMA 17 rotates its shaft
         tightly attached to pen
+        uses servo motor to lift and depress pen
         can lift pen easily and quickly
+        mounted on wheels for reduction of friction
 
     Roller
         accepts paper and consistent pushes paper under pen mount   
