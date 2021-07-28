@@ -52,3 +52,34 @@
         Instead of using shafts for linear bearings, using linear guide is better since it saves more space. The thingiverse link would
         serve as a guide. Need balls though, this link looks good https://www.amazon.com/500Pcs-Assorted-Loose-Bicycle-Bearing/dp/B085T3BT92/ref=sr_1_3?dchild=1&keywords=bearing+balls&qid=1627441064&sr=8-3
     }
+
+2021-07-28 06:20:56 
+    {
+        Learned how stepper motors work from https://www.youtube.com/watch?v=TWMai3oirnM "Stepper Motor - How It Works." 
+        Pulses are sent to stepper motor which create varying magnetic fields to turn a permanent magnet (or something similar) to in order to change its rotational position.
+    }
+
+2021-07-28 06:37:45
+    {
+        Learned even more about stepper motor. A single digital pulse moves a single step by energizing coil (I think running current briefly generates a magnetic field in 
+        one coil, but when current begins to stop a magnetic field in the opposite direction is generated). Microstepping is also possible.
+    }
+
+2021-07-28 06:44:43
+    {
+        I learned more about stepper motors and learned that there are 2 coils inside a stepper motor and each coil is energized alternatively in order to generate
+        magnetic fields in the same direction to rotate the shaft.
+        Check out https://www.youtube.com/watch?v=09Mpkjcr0bo "How Stepper Motors Work - Electric motor"
+    }
+
+2021-07-28 07:19:03
+    {
+        I worked on the lead screw design. I will wait for the paper feed roller design after I recieve the rollers today. I'm not completely sure how the roller will
+        effective feed paper without causing curlings. I'm also not sure how to prevent the paper from curling in general as it enters the chassis. My questions are 
+        "Does the pen cause the paper to curl?" "Will the paper need to be fed into a narrow slit to hold the paper down and will the slit cause the paper to curl?"
+    }
+
+2021-07-28 07:44:36 
+    {
+        Worked on the Servo Motor, Nut Carrier, and Pen design. 
+    }

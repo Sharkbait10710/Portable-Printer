@@ -1,0 +1,14 @@
+The nut carrier will be placed on a linear guide and is attachable by bolts and nuts. This will allow replacement of leads
+which will help evaluating leads and determine which lead produces the best quality and print time.
+
+The servo motor will be attached onto the nut carrier via bolts and nuts for easy disassemble and placed on its side
+such that the shaft is pointing long at the lead screw axis. 
+
+The servo motor will use a quick return mechanism to lift and lower the pen on the paper. A servo motor is a good choice
+to do this because it provides strong output torque to prevent the pen from moving up or down, thus reducing vibrations
+and improving print quality. 
+
+The pen will be mounted on a pen mount that will securely hold the pen and prevent the pen from slipping. A pen 
+coupling would be needed to do this and should be able to tighten and untighten for easy disassemble. The pen mount will
+be able to move up and down and its position will be controlled via the quick return mechanism. The pen mount shouldn't 
+be too heavy and should not cause the pen to lean.

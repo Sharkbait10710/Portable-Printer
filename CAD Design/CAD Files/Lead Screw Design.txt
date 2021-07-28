@@ -1,0 +1,22 @@
+The lead screw cannot have a lead that is too small because the stepper motor must turn faster to make the nut carrier 
+move faster. However, doing this requires sending pulses much quicker to the stepper motor, which generates more rapidly
+changing currents. This in turn causes the stator windings to create stronger magnetic fields, thus more friction, and less
+torque.
+
+An increase in rotational friction due to stronger magnetic fields which are in turn due to high pulse per second (PPS) can
+cause the nut mount to vibrate during prints, which would decrease print quality. Therefore, a cap on linear speed should be 
+specify.
+
+Since linear speed is equivalent to the rotational speed of the stepper motor times the lead per rotation, a larger lead 
+will increase linear speed. Furthermore, lower rotational speeds are required to travel the same distance compared to leads that are 
+smaller. However, this would require microstepping for more accurate positioning of the nut carrier, which would decrease the torque
+output by about 30%.
+
+Longer lead will significantly lower print time and reduce friction due to stronger magnetic fields (hence increase torque output),
+but will decrease gear ratio and overall accuracy. What a short lead can due is increase precision and significantly increase torque
+output, but there is a significantly trade off for speed.
+
+So, for quick prints, longer leads are more effective, but for precise prints, short leads are better.
+    for high precision, use short leads and use lower speeds.
+
+    
