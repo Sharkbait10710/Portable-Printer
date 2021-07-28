@@ -28,5 +28,16 @@
 
 2021-07-27 07:35:52 
     {
-        COntinued working on Design Concept. Have good idea of CAD design now
+        Continued working on Design Concept. Have good idea of CAD design now
+    }
+
+2021-07-27 07:45:39
+    {
+        Laid out requirement for UI
+    }
+
+2021-07-27 17:02:59 
+    {
+        Researched GUI design and how to use CSS. Found Bootstrap and plan to implement it.
+        Learned about Ultralight which "enables you to build your application's GUI with web pages and C/C++"
     }

@@ -1,0 +1,17 @@
+requirement
+    1) Should have immediate mode for user to choose
+        immediate will have an idle timer that starts when user no longer drawing
+        when idle timer timeouts, printer should get drawing data from user and start printing
+    2) Should have complete mode for user to choose
+        when user confirms that drawing is completed, printer will take the data and print out the drawing
+        should have an abort option to abort drawing if user chooses to do should
+    3) Should have a resume feature
+        software should check if printer is still running and/or completed drawing
+        if not completed, software should log the print job's progress so that when printer is online again, printing can resume
+        user should be notified that printer has not finished printjob and that printer has been turned off
+    4) User drawing should be logged 
+    5) User should be able to draw on UI and drawing data can be exported to printer
+        *ideal if UI can reduce print time as much as possible, but maximize print quality
+    6) Closed boundaries in drawing should be shaded or any other method that is NOT filled in
+    7) Software will notify user when drawing is completed
+    8) Software is IOS compatible
