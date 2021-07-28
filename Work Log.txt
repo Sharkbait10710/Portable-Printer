@@ -41,3 +41,14 @@
         Researched GUI design and how to use CSS. Found Bootstrap and plan to implement it.
         Learned about Ultralight which "enables you to build your application's GUI with web pages and C/C++"
     }
+
+2021-07-27 19:19:34
+    {
+        Learned about linear guide from https://youtu.be/XZXadrjIm_4 and discovered cad file at https://www.thingiverse.com/thing:2847294
+    }
+
+2021-07-27 19:59:05
+    {
+        Instead of using shafts for linear bearings, using linear guide is better since it saves more space. The thingiverse link would
+        serve as a guide. Need balls though, this link looks good https://www.amazon.com/500Pcs-Assorted-Loose-Bicycle-Bearing/dp/B085T3BT92/ref=sr_1_3?dchild=1&keywords=bearing+balls&qid=1627441064&sr=8-3
+    }
