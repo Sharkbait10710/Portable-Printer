@@ -1,0 +1,16 @@
+Since there are two stepper motors, two DRV8255 drivers will be needed to control them
+Since self-sensing is one of the capabilities of this project, the project will need two tactile sensors
+        one being the endstop switch (for leadscrew motion)
+        not sure if enstop would be able to detect paper though. Better than using other sensors due to price
+            initially thinking of VCSEL (vertical cavity surface emitting laser), like SparkFun VL53L1X, but it
+            was too expensive
+        maybe use a proxmity sensor for paper sensor
+        try infrared diode led IR emission and reciever
+        *****USE https://www.amazon.com/Gikfun-Infrared-Emitter-Receiver-Arduino/dp/B01HGIQ8NG/ref=sr_1_3?dchild=1&keywords=led+ir+emitter+and+receiver&qid=1627493803&sr=8-3
+        AND https://www.youtube.com/watch?v=_mOF1JXo1DU TO CREATE OWN PROXIMITY SENSOR*****
+    to detect the location of the paper and the pen
+A 12V power supply is needed to power the motor drivers and a step down /  6-7 power supply is needed to
+    power the ESP32 
+Use PCB for circuit board
+    I'm gonna try Altium CircuitMaker (software to make Gerber file) and JLCPCB (manufacturer)
+

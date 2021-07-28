@@ -83,3 +83,9 @@
     {
         Worked on the Servo Motor, Nut Carrier, and Pen design. 
     }
+
+2021-07-28 10:38:52
+    {
+        Have a much better idea as to what to do. Know what sensors to use to calibrate roller and pen. Know where to buy sensor. Have a good idea on what electrical
+        components to use. I think now is a good time to start designing
+    }
