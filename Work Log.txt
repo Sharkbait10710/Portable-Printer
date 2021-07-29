@@ -89,3 +89,12 @@
         Have a much better idea as to what to do. Know what sensors to use to calibrate roller and pen. Know where to buy sensor. Have a good idea on what electrical
         components to use. I think now is a good time to start designing
     }
+
+2021-07-28 17:39:00
+    {
+        Worked on linear guide. Got into some trouble.
+        Issues were: balls are same size as holes, but for some reason, there is interference, even for cylinder holes (which should be an obvious fit)
+                        difficulty assembling all the parts. Not sure why there are interference when I tried to fit the 15 balls between the carrier / cap 
+                        and rail
+        Slightly larger holes might be good because lubrication 
+    }
