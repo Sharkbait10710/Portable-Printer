@@ -98,3 +98,13 @@
                         and rail
         Slightly larger holes might be good because lubrication 
     }
+
+2021-07-29 09:00:10
+    {
+        Linear Guide assembly is complete, but assembling 6-32 screws and nuts is too difficult for me right now. Going to start working on the lead screw and nut carrier.
+    }
+
+2021-07-29 10:24:58
+    {
+        Learned how to draw threads. Just finished lead screw.
+    }
