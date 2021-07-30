@@ -108,3 +108,19 @@
     {
         Learned how to draw threads. Just finished lead screw.
     }
+
+2021-07-29 14:24:55
+    {
+        Worked on nut carrier (servo mount), but seems like the linear guide is a bit big. Could be improved. Check nut holes on linear guide carrier. Perhaps walls should be 
+        thickened. 
+    }
+
+2021-07-29 15:01:40
+    {
+        Continued to develop the servo mount on the nut carrier, but will attempt to print to evaluate quality
+    }
+
+2021-07-29 19:54:06
+    {
+        Tried setting up Ultralight, but not working. Probably better to use something different to develop UI
+    }
