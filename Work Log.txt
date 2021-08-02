@@ -124,3 +124,9 @@
     {
         Tried setting up Ultralight, but not working. Probably better to use something different to develop UI
     }
+
+2021-07-31 18:43:48
+    {
+        Printed out rail, pen mount, and linear guide. Quality of all are not up to standard. Rough surfaces for those rail (by Longer) and parts printed on Labist (pen mount)
+        have very bad tolerance. This implies that labist produces worst quality parts than Longer and adjustments must be made.
+    }
