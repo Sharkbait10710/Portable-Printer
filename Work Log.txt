@@ -145,3 +145,13 @@
     {
         Today will be mainly focused on printing out parts and waiting.
     }
+
+2021-08-04 13:00:07
+    {
+        Completed Schematic
+    }
+
+2021-08-10 08:45:40
+    {
+        A whole week of printing and seems like theres nearly satisfactory precision in the roller. A lot of improvment parts. Going to work on GUI. 
+    }
