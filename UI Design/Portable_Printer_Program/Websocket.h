@@ -19,7 +19,7 @@ WebSocketsClient webSocket;
 String WSMsg = "";
 
 //Prints out information during runtime if DEBUG is true
-#define DEBUG true
+#define DEBUG false
 
 //I think this function "clears" the memory buffer
 void hexdump(const void *mem, uint32_t len, uint8_t cols = 16) {
@@ -42,14 +42,14 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
 
     //Let the user know that WS is disconnected
     case WStype_DISCONNECTED:
-      if (DEBUG) USE_SERIAL.printf("[WSc] Disconnected!\n");
+      USE_SERIAL.printf("[WSc] Disconnected!\n");
       break;
 
     //Let the user know that WS is connected
     case WStype_CONNECTED: {
-      if (DEBUG) USE_SERIAL.printf("[WSc] Connected to url: %s\n", payload);
+      USE_SERIAL.printf("[WSc] Connected to url: %s\n", payload);
       webSocket.sendTXT("My id is: 1");
-      if (DEBUG) USE_SERIAL.println("My id is: 1")};
+      if (DEBUG) USE_SERIAL.println("My id is: 1");}
       break;
 
     //Let Arduino program know if there is WS Message
