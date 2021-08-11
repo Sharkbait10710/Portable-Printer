@@ -3,7 +3,7 @@ const WebSocket = require("ws");
 const wss = new WebSocket.Server({port: 8082});
 
 //If DEBUG is true, DEBUG console logs will run
-const DEBUG = false;
+const DEBUG = true;
 
 //array of clients
 var lookup = {};

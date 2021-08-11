@@ -54,3 +54,19 @@ document.getElementById("VStepperC").addEventListener("mouseup", function() {
     console.log("Just sent a message to the server from GUI");
     });
 
+const increment = 1; 
+
+document.getElementById("leftarrow").addEventListener("click", function() {
+    var size = document.getElementById("servo").style.width.slice(0, -1);
+    size -= increment;
+    document.getElementById("servo").style.width = size + "%";
+    ws.send("Send data to 1. Adjust servo to " + size);
+    });
+
+document.getElementById("rightarrow").addEventListener("click", function() {
+    var size = document.getElementById("servo").style.width.slice(0, -1);
+    size -= -increment;
+    document.getElementById("servo").style.width = size + "%";
+    ws.send("Send data to 1. Adjust servo to " + size);
+    });
+

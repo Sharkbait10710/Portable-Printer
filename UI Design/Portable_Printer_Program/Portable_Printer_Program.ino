@@ -6,13 +6,15 @@
 //Variables
 unsigned motor_1_retuns = 0;
 unsigned motor_2_retuns = 0;
-
+int servo_pos = 50;
 //Task for multithreading
 TaskHandle_t motorTask;
 
 void setup() {
   WSSetup("BadWifi", "Sanmina02", "192.168.0.28", 8082);
   stepperSetup();
+  servoSetup();
+  servo.write(map(servo_pos, 0, 100, 0, 180));
 
   xTaskCreatePinnedToCore(
                     motorTaskcode,   // Function to implement the task
@@ -49,6 +51,10 @@ void evaluateWSMsg(String& str) {
     USE_SERIAL.println("Turn stepper 2 C Continuously");
     motor_2_retuns = 2;
   }
+  else if (str.indexOf("Adjust servo to ") > -1) {
+    servo_pos = str.substring(16,str.length()).toInt();
+    USE_SERIAL.println("Adjust servo to " + str.substring(16,str.length()));
+  }
 
   str = "";
 }
@@ -71,6 +77,11 @@ void MotorAction() {
     case 2: {USE_SERIAL.println("Step2C"); stepper_2.move(-MOTOR_STEPS*MICROSTEPS);}
       break;
   }
+
+  if (servo.read() != map(servo_pos, 0, 100, 0, 180)) {
+    USE_SERIAL.println("Moving to " + String(map(servo_pos, 0, 100, 0, 180)));
+    servo.write(map(servo_pos, 0, 100, 0, 180));
+  }
 }
 
 void motorTaskcode( void * pvParameters ){
@@ -84,5 +95,4 @@ void loop() {
   //Constantly evaluate WS connection for messages 
   webSocket.loop();
   evaluateWSMsg(WSMsg);
-  //MotorAction();
 }

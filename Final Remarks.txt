@@ -1,0 +1,9 @@
+As school is starting and I haven't fully prepared by learning about the school / commuting to school, I have to stop this project after 2 1/2 weeks. Despite falling short of my 
+initial goal, I believe that I have gained so much from this project. I have learned how to better sketch in solidworks and use extrude sweep; I've learned how to inspect
+my printer's physical assembly and circuit board; I had hands-on experience with a step-down voltage regulator, strip boards, and designing schematics using Altrium CircuitDesigner;
+I learned how to setup a webSocket server that connects to multiple clients and help package / send data between clients; I've become a much better programmer / software developer by
+better understanding how to organize my code, read documentation, utilize classes, and used multiple language; and I got use use Twitter bootscrap to help me design a GUI for 
+controlling my stepper motors and servo.
+
+I've definitely gained a lot from this experience, both in confidence in skill.
+One thing that I want to improve on is to always be relaxed when working to protect myself, avoid negligent/rushful mistakes, and improve the end product.

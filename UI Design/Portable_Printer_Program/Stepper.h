@@ -31,7 +31,8 @@ DRV8825 stepper_2(MOTOR_STEPS, Stepper_2_dir, Stepper_2_step,
 void stepperSetup() {
   stepper_1.begin(RPM, MICROSTEPS);
   stepper_2.begin(RPM, MICROSTEPS);
-
+  digitalWrite(Stepper_1_M0, HIGH);
+  digitalWrite(Stepper_2_M0, HIGH);
   //Energizes coil to hold motor shaft (disable to release hold)
   stepper_1.enable();
   stepper_2.enable();
